@@ -92,7 +92,7 @@ def main(args):
     # {LSTM, PatchTST, ...}
 
     config = dict()
-    config["ckptdir"] = "/h/99/jerryji/codedirs/labcdsticu/runs/labvalpred"
+    config["ckptdir"] = "/runs/labvalpred"
     config["dataset"] = "mimic"
     config["lr"] = 1e-4
     config["lradj"] = "type3"
